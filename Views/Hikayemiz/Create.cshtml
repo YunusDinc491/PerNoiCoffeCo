@@ -1,0 +1,47 @@
+@model PerNoiWebsite.Models.Hikayemiz
+
+@{
+    ViewData["Title"] = "Yeni Kayıt";
+    Layout = "_AdminLayout";
+}
+
+<div class="panel">
+    <div class="panel-head">
+        <div>
+            <h2>Yeni Hikayemiz Kaydı</h2>
+            <div class="sub">Anasayfadaki Hikayemiz bölümü için içerik ekle</div>
+        </div>
+        <a class="btn btn-ghost" asp-action="Index">
+            <svg viewBox="0 0 20 20" fill="none"><path d="M12 4 6 10l6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" /></svg>
+            Listeye dön
+        </a>
+    </div>
+    <form class="form-grid" asp-action="Create" enctype="multipart/form-data">
+        
+        <div asp-validation-summary="ModelOnly" class="text-danger span-2"></div>
+        <div class="field">
+            <label asp-for="UstBaslik">Üst Başlık</label>
+            <input asp-for="UstBaslik" placeholder="Örn. Bizim Hikayemiz" />
+            <span asp-validation-for="UstBaslik" class="text-danger"></span>
+        </div>
+        <div class="field">
+            <label asp-for="OzluSoz">Özlü Söz</label>
+            <input asp-for="OzluSoz" />
+            <span asp-validation-for="OzluSoz" class="text-danger"></span>
+        </div>
+        <div class="field span-2">
+            <label asp-for="AltMetin">Alt Metin</label>
+            <textarea asp-for="AltMetin"></textarea>
+            <span asp-validation-for="AltMetin" class="text-danger"></span>
+        </div>
+        <div class="field">
+            <label>Fotoğraf / Logo</label>
+            <input type="file" name="FotoDosya" accept="image/*" required />
+            <div class="hint">Bilgisayarından bir görsel seç (jpg, png...)</div>
+        </div>
+        <div class="form-actions">
+            <a class="btn btn-ghost" asp-action="Index">Vazgeç</a>
+            <button class="btn btn-primary" type="submit">Kaydet</button>
+        </div>
+    </form>
+</div>

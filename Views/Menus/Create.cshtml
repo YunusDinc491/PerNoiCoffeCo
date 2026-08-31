@@ -1,0 +1,32 @@
+@model PerNoiWebsite.Models.Menu
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "_AdminLayout";
+
+}
+
+<div class="panel">
+    <div class="panel-head">
+        <div>
+            <h2>Yeni Menü Kategorisi</h2>
+            <div class="sub">Menüye yeni bir üst kategori ekle</div>
+        </div>
+        <a class="btn btn-ghost" asp-action="Index">
+            <svg viewBox="0 0 20 20" fill="none"><path d="M12 4 6 10l6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" /></svg>
+            Listeye dön
+        </a>
+    </div>
+    <form class="form-grid" asp-action="Create">
+        <div asp-validation-summary="ModelOnly" class="text-danger span-2"></div>
+        <div class="field span-2">
+            <label asp-for="Baslik">Kategori Adı</label>
+            <input asp-for="Baslik" placeholder="Örn. Kahveler" />
+            <span asp-validation-for="Baslik" class="text-danger"></span>
+        </div>
+        <div class="form-actions">
+            <a class="btn btn-ghost" asp-action="Index">Vazgeç</a>
+            <button class="btn btn-primary" type="submit">Kaydet</button>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,204 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v8.0
+build_property.EntryPointFilePath = 
+build_property.RootNamespace = PerNoiWebsite
+build_property.RootNamespace = PerNoiWebsite
+build_property.ProjectDir = C:\Users\Lider\Desktop\Software\Projeler\PerNoiWebsite\PerNoiWebsite\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Lider\Desktop\Software\Projeler\PerNoiWebsite\PerNoiWebsite
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/Lider/Desktop/Software/Projeler/PerNoiWebsite/PerNoiWebsite/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lider/Desktop/Software/Projeler/PerNoiWebsite/PerNoiWebsite/Views/Galeris/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FsZXJpc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lider/Desktop/Software/Projeler/PerNoiWebsite/PerNoiWebsite/Views/Galeris/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FsZXJpc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lider/Desktop/Software/Projeler/PerNoiWebsite/PerNoiWebsite/Views/Galeris/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FsZXJpc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lider/Desktop/Software/Projeler/PerNoiWebsite/PerNoiWebsite/Views/Galeris/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FsZXJpc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lider/Desktop/Software/Projeler/PerNoiWebsite/PerNoiWebsite/Views/Galeris/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FsZXJpc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lider/Desktop/Software/Projeler/PerNoiWebsite/PerNoiWebsite/Views/Hikayemiz/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlrYXllbWl6XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lider/Desktop/Software/Projeler/PerNoiWebsite/PerNoiWebsite/Views/Hikayemiz/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlrYXllbWl6XERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lider/Desktop/Software/Projeler/PerNoiWebsite/PerNoiWebsite/Views/Hikayemiz/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlrYXllbWl6XERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lider/Desktop/Software/Projeler/PerNoiWebsite/PerNoiWebsite/Views/Hikayemiz/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlrYXllbWl6XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lider/Desktop/Software/Projeler/PerNoiWebsite/PerNoiWebsite/Views/Hikayemiz/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlrYXllbWl6XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lider/Desktop/Software/Projeler/PerNoiWebsite/PerNoiWebsite/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lider/Desktop/Software/Projeler/PerNoiWebsite/PerNoiWebsite/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lider/Desktop/Software/Projeler/PerNoiWebsite/PerNoiWebsite/Views/Iletisims/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWxldGlzaW1zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lider/Desktop/Software/Projeler/PerNoiWebsite/PerNoiWebsite/Views/Iletisims/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWxldGlzaW1zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lider/Desktop/Software/Projeler/PerNoiWebsite/PerNoiWebsite/Views/Iletisims/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWxldGlzaW1zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lider/Desktop/Software/Projeler/PerNoiWebsite/PerNoiWebsite/Views/Iletisims/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWxldGlzaW1zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lider/Desktop/Software/Projeler/PerNoiWebsite/PerNoiWebsite/Views/Iletisims/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWxldGlzaW1zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lider/Desktop/Software/Projeler/PerNoiWebsite/PerNoiWebsite/Views/Menus/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lider/Desktop/Software/Projeler/PerNoiWebsite/PerNoiWebsite/Views/Menus/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lider/Desktop/Software/Projeler/PerNoiWebsite/PerNoiWebsite/Views/Menus/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lider/Desktop/Software/Projeler/PerNoiWebsite/PerNoiWebsite/Views/Menus/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lider/Desktop/Software/Projeler/PerNoiWebsite/PerNoiWebsite/Views/Menus/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lider/Desktop/Software/Projeler/PerNoiWebsite/PerNoiWebsite/Views/MenuYonetim/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVlvbmV0aW1cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lider/Desktop/Software/Projeler/PerNoiWebsite/PerNoiWebsite/Views/MenuYonetim/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVlvbmV0aW1cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lider/Desktop/Software/Projeler/PerNoiWebsite/PerNoiWebsite/Views/MenuYonetim/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVlvbmV0aW1cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lider/Desktop/Software/Projeler/PerNoiWebsite/PerNoiWebsite/Views/MenuYonetim/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVlvbmV0aW1cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lider/Desktop/Software/Projeler/PerNoiWebsite/PerNoiWebsite/Views/MenuYonetim/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVlvbmV0aW1cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lider/Desktop/Software/Projeler/PerNoiWebsite/PerNoiWebsite/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lider/Desktop/Software/Projeler/PerNoiWebsite/PerNoiWebsite/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lider/Desktop/Software/Projeler/PerNoiWebsite/PerNoiWebsite/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lider/Desktop/Software/Projeler/PerNoiWebsite/PerNoiWebsite/Views/Urunler/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXJ1bmxlclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lider/Desktop/Software/Projeler/PerNoiWebsite/PerNoiWebsite/Views/Urunler/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXJ1bmxlclxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lider/Desktop/Software/Projeler/PerNoiWebsite/PerNoiWebsite/Views/Urunler/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXJ1bmxlclxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lider/Desktop/Software/Projeler/PerNoiWebsite/PerNoiWebsite/Views/Urunler/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXJ1bmxlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lider/Desktop/Software/Projeler/PerNoiWebsite/PerNoiWebsite/Views/Yorumlars/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9ydW1sYXJzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lider/Desktop/Software/Projeler/PerNoiWebsite/PerNoiWebsite/Views/Yorumlars/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9ydW1sYXJzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lider/Desktop/Software/Projeler/PerNoiWebsite/PerNoiWebsite/Views/Yorumlars/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9ydW1sYXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lider/Desktop/Software/Projeler/PerNoiWebsite/PerNoiWebsite/Views/Yorumlars/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9ydW1sYXJzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lider/Desktop/Software/Projeler/PerNoiWebsite/PerNoiWebsite/Views/Yorumlars/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9ydW1sYXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lider/Desktop/Software/Projeler/PerNoiWebsite/PerNoiWebsite/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lider/Desktop/Software/Projeler/PerNoiWebsite/PerNoiWebsite/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lider/Desktop/Software/Projeler/PerNoiWebsite/PerNoiWebsite/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-xuqifnniyf

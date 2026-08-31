@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lider\\Desktop\\Software\\Projeler\\PerNoiWebsite\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{22EFE79D-3475-D44C-3CB0-73F34697F91A}|PerNoiWebsite\\PerNoiWebsite.csproj|c:\\users\\lider\\desktop\\software\\projeler\\pernoiwebsite\\pernoiwebsite\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22EFE79D-3475-D44C-3CB0-73F34697F91A}|PerNoiWebsite\\PerNoiWebsite.csproj|solutionrelative:pernoiwebsite\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22EFE79D-3475-D44C-3CB0-73F34697F91A}|PerNoiWebsite\\PerNoiWebsite.csproj|c:\\users\\lider\\desktop\\software\\projeler\\pernoiwebsite\\pernoiwebsite\\wwwroot\\css\\pernoi.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{22EFE79D-3475-D44C-3CB0-73F34697F91A}|PerNoiWebsite\\PerNoiWebsite.csproj|solutionrelative:pernoiwebsite\\wwwroot\\css\\pernoi.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22EFE79D-3475-D44C-3CB0-73F34697F91A}|PerNoiWebsite\\PerNoiWebsite.csproj|c:\\users\\lider\\desktop\\software\\projeler\\pernoiwebsite\\pernoiwebsite\\views\\hikayemiz\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22EFE79D-3475-D44C-3CB0-73F34697F91A}|PerNoiWebsite\\PerNoiWebsite.csproj|solutionrelative:pernoiwebsite\\views\\hikayemiz\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22EFE79D-3475-D44C-3CB0-73F34697F91A}|PerNoiWebsite\\PerNoiWebsite.csproj|c:\\users\\lider\\desktop\\software\\projeler\\pernoiwebsite\\pernoiwebsite\\views\\hikayemiz\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22EFE79D-3475-D44C-3CB0-73F34697F91A}|PerNoiWebsite\\PerNoiWebsite.csproj|solutionrelative:pernoiwebsite\\views\\hikayemiz\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22EFE79D-3475-D44C-3CB0-73F34697F91A}|PerNoiWebsite\\PerNoiWebsite.csproj|c:\\users\\lider\\desktop\\software\\projeler\\pernoiwebsite\\pernoiwebsite\\controllers\\hikayemizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22EFE79D-3475-D44C-3CB0-73F34697F91A}|PerNoiWebsite\\PerNoiWebsite.csproj|solutionrelative:pernoiwebsite\\controllers\\hikayemizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PerNoi.css",
+              "DocumentMoniker": "C:\\Users\\Lider\\Desktop\\Software\\Projeler\\PerNoiWebsite\\PerNoiWebsite\\wwwroot\\css\\PerNoi.css",
+              "RelativeDocumentMoniker": "PerNoiWebsite\\wwwroot\\css\\PerNoi.css",
+              "ToolTip": "C:\\Users\\Lider\\Desktop\\Software\\Projeler\\PerNoiWebsite\\PerNoiWebsite\\wwwroot\\css\\PerNoi.css",
+              "RelativeToolTip": "PerNoiWebsite\\wwwroot\\css\\PerNoi.css",
+              "ViewState": "AgIAAAIEAAAAAAAAAAAYwCoEAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-08-30T14:37:19.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lider\\Desktop\\Software\\Projeler\\PerNoiWebsite\\PerNoiWebsite\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "PerNoiWebsite\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Lider\\Desktop\\Software\\Projeler\\PerNoiWebsite\\PerNoiWebsite\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "PerNoiWebsite\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAAAJ4AAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-30T14:36:42.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lider\\Desktop\\Software\\Projeler\\PerNoiWebsite\\PerNoiWebsite\\Views\\Hikayemiz\\Edit.cshtml",
+              "RelativeDocumentMoniker": "PerNoiWebsite\\Views\\Hikayemiz\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Lider\\Desktop\\Software\\Projeler\\PerNoiWebsite\\PerNoiWebsite\\Views\\Hikayemiz\\Edit.cshtml",
+              "RelativeToolTip": "PerNoiWebsite\\Views\\Hikayemiz\\Edit.cshtml",
+              "ViewState": "AgIAAAoAAABgUgq6vcwjwCUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-30T14:36:13.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lider\\Desktop\\Software\\Projeler\\PerNoiWebsite\\PerNoiWebsite\\Views\\Hikayemiz\\Create.cshtml",
+              "RelativeDocumentMoniker": "PerNoiWebsite\\Views\\Hikayemiz\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Lider\\Desktop\\Software\\Projeler\\PerNoiWebsite\\PerNoiWebsite\\Views\\Hikayemiz\\Create.cshtml",
+              "RelativeToolTip": "PerNoiWebsite\\Views\\Hikayemiz\\Create.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-30T14:35:10.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HikayemizController.cs",
+              "DocumentMoniker": "C:\\Users\\Lider\\Desktop\\Software\\Projeler\\PerNoiWebsite\\PerNoiWebsite\\Controllers\\HikayemizController.cs",
+              "RelativeDocumentMoniker": "PerNoiWebsite\\Controllers\\HikayemizController.cs",
+              "ToolTip": "C:\\Users\\Lider\\Desktop\\Software\\Projeler\\PerNoiWebsite\\PerNoiWebsite\\Controllers\\HikayemizController.cs",
+              "RelativeToolTip": "PerNoiWebsite\\Controllers\\HikayemizController.cs",
+              "ViewState": "AgIAAEkAAACAlZaRelciwGYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-30T14:31:48.716Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

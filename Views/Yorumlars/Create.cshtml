@@ -1,0 +1,51 @@
+@model PerNoiWebsite.Models.Yorumlar
+
+@{
+    ViewData["Title"] = "Yeni Yorum";
+    Layout = "_AdminLayout";
+}
+
+<div class="panel">
+    <div class="panel-head">
+        <div>
+            <h2>Yeni Yorum Ekle</h2>
+            <div class="sub">Anasayfa yorumlar bölümüne yeni yorum ekle</div>
+        </div>
+        <a class="btn btn-ghost" asp-action="Index">
+            <svg viewBox="0 0 20 20" fill="none"><path d="M12 4 6 10l6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" /></svg>
+            Listeye dön
+        </a>
+    </div>
+    <form class="form-grid" asp-action="Create">
+        <div asp-validation-summary="ModelOnly" class="text-danger span-2"></div>
+        <div class="field">
+            <label asp-for="KisiAdi">Kişi Adı</label>
+            <input asp-for="KisiAdi" placeholder="Örn. Ayşe Yılmaz" />
+            <span asp-validation-for="KisiAdi" class="text-danger"></span>
+        </div>
+        <div class="field">
+            <label asp-for="Lakap">Lakap / Ünvan</label>
+            <input asp-for="Lakap" placeholder="Örn. Sadık Müşteri" />
+            <span asp-validation-for="Lakap" class="text-danger"></span>
+        </div>
+        <div class="field">
+            <label asp-for="Baslik">Başlık</label>
+            <input asp-for="Baslik" />
+            <span asp-validation-for="Baslik" class="text-danger"></span>
+        </div>
+        <div class="field">
+            <label asp-for="Photo">Fotoğraf</label>
+            <input asp-for="Photo" class="mono" placeholder="/images/kisi.jpg" />
+            <span asp-validation-for="Photo" class="text-danger"></span>
+        </div>
+        <div class="field span-2">
+            <label asp-for="Yorum">Yorum</label>
+            <textarea asp-for="Yorum"></textarea>
+            <span asp-validation-for="Yorum" class="text-danger"></span>
+        </div>
+        <div class="form-actions">
+            <a class="btn btn-ghost" asp-action="Index">Vazgeç</a>
+            <button class="btn btn-primary" type="submit">Kaydet</button>
+        </div>
+    </form>
+</div>

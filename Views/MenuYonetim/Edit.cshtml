@@ -1,0 +1,54 @@
+@model PerNoiWebsite.Models.MenuCaylarveDigerleri
+
+@{
+    ViewData["Title"] = "Ürünü Düzenle";
+    Layout = "_AdminLayout";
+}
+
+<div class="panel">
+    <div class="panel-head">
+        <div>
+            <h2>Ürünü Düzenle</h2>
+            <div class="sub">@Model.IcecekAdi</div>
+        </div>
+        <a class="btn btn-ghost" asp-action="Index">
+            <svg viewBox="0 0 20 20" fill="none"><path d="M12 4 6 10l6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" /></svg>
+            Listeye dön
+        </a>
+    </div>
+    <form class="form-grid" asp-action="Edit">
+        <div asp-validation-summary="ModelOnly" class="text-danger span-2"></div>
+        <input type="hidden" asp-for="Id" />
+        <div class="field">
+            <label asp-for="IcecekAdi">Ürün Adı</label>
+            <input asp-for="IcecekAdi" />
+            <span asp-validation-for="IcecekAdi" class="text-danger"></span>
+        </div>
+        <div class="field">
+            <label asp-for="Fiyat">Fiyat</label>
+            <input asp-for="Fiyat" class="mono" />
+            <span asp-validation-for="Fiyat" class="text-danger"></span>
+        </div>
+        <div class="field span-2">
+            <label asp-for="Aciklama">Açıklama</label>
+            <textarea asp-for="Aciklama"></textarea>
+            <span asp-validation-for="Aciklama" class="text-danger"></span>
+        </div>
+        <div class="field">
+            <label asp-for="MenuId">Kategori</label>
+            <select asp-for="MenuId" asp-items="ViewBag.Menuler">
+                <option value="">-- Kategori seç --</option>
+            </select>
+            <span asp-validation-for="MenuId" class="text-danger"></span>
+        </div>
+        <div class="form-actions">
+            <a class="btn btn-ghost" asp-action="Index">Vazgeç</a>
+            <button class="btn btn-primary" type="submit">Değişiklikleri Kaydet</button>
+        </div>
+    </form>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

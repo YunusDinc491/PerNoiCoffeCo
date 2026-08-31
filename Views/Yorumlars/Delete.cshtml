@@ -1,0 +1,46 @@
+@model PerNoiWebsite.Models.Yorumlar
+
+@{
+    ViewData["Title"] = "Yorumu Sil";
+    Layout = "_AdminLayout";
+}
+
+<div class="panel">
+    <div class="panel-head">
+        <div>
+            <h2>Bu yorumu silmek istediğine emin misin?</h2>
+            <div class="sub">Bu işlem geri alınamaz</div>
+        </div>
+        <a class="btn btn-ghost" asp-action="Index">
+            <svg viewBox="0 0 20 20" fill="none"><path d="M12 4 6 10l6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" /></svg>
+            Listeye dön
+        </a>
+    </div>
+    <div class="form-grid">
+        <div class="field">
+            <label>Kişi Adı</label>
+            <div>@Html.DisplayFor(model => model.KisiAdi)</div>
+        </div>
+        <div class="field">
+            <label>Lakap / Ünvan</label>
+            <div>@Html.DisplayFor(model => model.Lakap)</div>
+        </div>
+        <div class="field">
+            <label>Başlık</label>
+            <div>@Html.DisplayFor(model => model.Baslik)</div>
+        </div>
+        <div class="field">
+            <label>Fotoğraf</label>
+            <div class="mono">@Html.DisplayFor(model => model.Photo)</div>
+        </div>
+        <div class="field span-2">
+            <label>Yorum</label>
+            <div>@Html.DisplayFor(model => model.Yorum)</div>
+        </div>
+        <form asp-action="Delete" class="form-actions span-2">
+            <input type="hidden" asp-for="Id" />
+            <a class="btn btn-ghost" asp-action="Index">Vazgeç</a>
+            <button type="submit" class="btn btn-primary" style="background:var(--bad); color:#fff;">Evet, Sil</button>
+        </form>
+    </div>
+</div>

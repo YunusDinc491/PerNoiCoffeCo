@@ -1,0 +1,56 @@
+﻿@model PerNoiWebsite.Models.Urun
+
+@{
+    ViewData["Title"] = "Ürünü Düzenle";
+    Layout = "_AdminLayout";
+}
+
+<div class="panel">
+    <div class="panel-head">
+        <div>
+            <h2>Ürünü Düzenle</h2>
+            <div class="sub">@Model.UrunAdi</div>
+        </div>
+        <a class="btn btn-ghost" asp-action="Index">
+            <svg viewBox="0 0 20 20" fill="none"><path d="M12 4 6 10l6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" /></svg>
+            Listeye dön
+        </a>
+    </div>
+    <form class="form-grid" asp-action="Edit" enctype="multipart/form-data">
+        <div asp-validation-summary="ModelOnly" class="text-danger span-2"></div>
+        <input type="hidden" asp-for="Id" />
+        <div class="field">
+            <label asp-for="UrunAdi">Ürün Adı</label>
+            <input asp-for="UrunAdi" />
+            <span asp-validation-for="UrunAdi" class="text-danger"></span>
+        </div>
+        <div class="field">
+            <label asp-for="Kalori">Kalori</label>
+            <input asp-for="Kalori" class="mono" />
+            <span asp-validation-for="Kalori" class="text-danger"></span>
+        </div>
+        <div class="field span-2">
+            <label asp-for="Icerik">İçerik</label>
+            <textarea asp-for="Icerik"></textarea>
+            <span asp-validation-for="Icerik" class="text-danger"></span>
+        </div>
+        <div class="field">
+            <label>Fotoğraf</label>
+            @if (!string.IsNullOrEmpty(Model.Foto))
+            {
+                <img src="@Model.Foto" alt="Mevcut görsel" style="max-width:160px; border-radius:8px; display:block; margin-bottom:.5rem;" />
+            }
+            <input type="file" name="FotoDosya" accept="image/*" />
+            <div class="hint">Değiştirmek istemiyorsan boş bırak</div>
+        </div>
+        <div class="form-actions">
+            <a class="btn btn-ghost" asp-action="Index">Vazgeç</a>
+            <button class="btn btn-primary" type="submit">Değişiklikleri Kaydet</button>
+        </div>
+    </form>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
